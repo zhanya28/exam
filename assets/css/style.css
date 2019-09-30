@@ -132,8 +132,8 @@ h6 {
 }
 
 .button2 {
-  width: fit-content;
-  height: 45px;
+  width: 227px;
+  height: 54px;
   line-height: 45px;
   box-sizing: border-box;
   padding: 0 45px;
@@ -275,11 +275,11 @@ div.headline p {
 }
 
 .gallery {
-  position: absolute;
+  position: relative;
   width: 1440px;
   height: 2322px;
-  left: 0px;
-  top: 503px;
+  top: -503px;
+  margin: 0 auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -450,11 +450,10 @@ div.five .color {
 }
 
 .newsletter {
-  position: absolute;
+  position: relative;
   width: 613px;
   height: 219px;
-  left: 413px;
-  top: 4031px;
+  margin: 0 auto;
 }
 .newsletter h3 {
   text-align: center;
@@ -481,8 +480,8 @@ div.five .color {
   border-bottom: solid;
 }
 .newsletter button {
-  width: 227px;
-  height: 54px;
-  left: 772px;
-  top: 4193px;
+  margin: 0 0 0 165px;
+}
+.newsletter .emailform {
+  margin: 45px 0 0 25px;
 }

@@ -290,6 +290,58 @@ div.caption {
   margin: 71px 343px 593px 245px;
 }
 
+div.texts span {
+  position: absolute;
+  width: 218px;
+  height: 72px;
+  font-size: 16.2px;
+  line-height: 26px;
+  color: var(--white);
+  z-index: 3;
+}
+div.texts .textone {
+  margin: 1585px 49px 0 588px;
+}
+div.texts .texttwo {
+  margin: 1532px 588px 54px 0;
+}
+div.texts .textthree {
+  margin: 812px 588px 774px 0;
+}
+div.texts .textfour {
+  margin: 36px 588px 0 0;
+}
+div.texts .textfive {
+  margin: 36px 49px 0 588px;
+}
+
+div.titles span {
+  position: absolute;
+  width: 264px;
+  height: 36px;
+  font-size: 18px;
+  line-height: 37px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--white);
+  z-index: 3;
+}
+div.titles .titleone {
+  margin: 1549px 49px 0 588px
+}
+div.titles .titletwo {
+  margin: 1496px 588px 54px 0;
+}
+div.titles .titlethree {
+  margin: 776px 588px 774px 0;
+}
+div.titles .titlefour {
+  margin: 0 588px 0 0;
+}
+div.titles .titlefive {
+  margin: 0 49px 0 588px;
+}
+
 div.one {
   position: absolute;
   width: 720px;
@@ -359,7 +411,7 @@ div.four {
   width: 750px;
   height: 774px;
   left: 690px;
-  top: 1547px;
+  top: 1548px;
   background: url('./../images/Rectangle3-3.jpg');
 }
 div.four .overlay {

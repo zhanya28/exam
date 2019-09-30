@@ -131,6 +131,35 @@ h6 {
   border: 1px solid var(--secondary-100);
 }
 
+.button2 {
+  width: fit-content;
+  height: 45px;
+  line-height: 45px;
+  box-sizing: border-box;
+  padding: 0 45px;
+  background: linear-gradient(180deg, #F2F2F2 0%, rgba(255, 255, 255, 0) 100%);
+
+  border: 1px solid var(--light-grey);
+  
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--white);
+  text-decoration: none;
+
+  cursor: pointer;
+  outline: none;
+  transition-property: background-color, border, color;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  margin: 3px;
+
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
 section {
   width: 100%;
   height: auto;
@@ -366,4 +395,42 @@ div.five .overlay {
 div.five .color {
   z-index: 1;
   background: var(--primary);
+}
+
+.newsletter {
+  position: absolute;
+  width: 613px;
+  height: 219px;
+  left: 413px;
+  top: 4031px;
+}
+.newsletter h3 {
+  text-align: center;
+  color: var(--text-headers);
+}
+.newsletter h6 {
+  text-align: center;
+  color: var(--text-main);
+}
+.newsletter span {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 37px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--text-grey);
+}
+.newsletter input {
+  width: 558px;
+  height: 3px;
+  left: 441px;
+  top: 4247px;
+  border: none;
+  border-bottom: solid;
+}
+.newsletter button {
+  width: 227px;
+  height: 54px;
+  left: 772px;
+  top: 4193px;
 }

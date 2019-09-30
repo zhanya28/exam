@@ -190,7 +190,7 @@ nav a:after {
   width: 0;
   height: 1px;
   left: 50%;
-  background: var(--white);
+  background: var(--secondary-400);
   transition: all 200ms ease-in-out;
 }
 
@@ -203,6 +203,21 @@ nav a:hover:after {
 nav .phone {
   flex-grow: 2;
   text-align: center;
+}
+nav .phone img {
+  vertical-align: middle;
+  margin-right: 18px;
+}
+
+nav .menu {
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+nav .menu:hover {
+  transform: rotateY(180deg);
+}
+nav .menu img {
+  vertical-align: middle;
 }
 
 .headline {
@@ -225,3 +240,4 @@ div.headline p {
   text-transform: uppercase;
   color: var(--secondary-400);
 }
+

@@ -270,10 +270,6 @@ div.headline p {
   color: var(--secondary-400);
 }
 
-.container2 {
-  position: relative;
-}
-
 .gallery {
   position: relative;
   width: 1440px;

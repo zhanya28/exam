@@ -221,10 +221,10 @@ nav .menu img {
 }
 
 .headline {
-  position: absolute;
-  margin: 149px 539px 107px 0;
+  margin: 0 auto;
+  position: relative;
+  padding: 149px 539px 107px 0;
   width: 755px;
-  left: 146px;
 }
 div.headline h2 {
   left: 147px;
@@ -241,3 +241,129 @@ div.headline p {
   color: var(--secondary-400);
 }
 
+.container2 {
+  position: relative;
+}
+
+.gallery {
+  position: absolute;
+  width: 1440px;
+  height: 2322px;
+  left: 0px;
+  top: 503px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+div.caption {
+  position: absolute;
+  width: 852px;
+  height: 1658px;
+  margin: 71px 343px 593px 245px;
+}
+
+div.one {
+  position: absolute;
+  width: 720px;
+  height: 828px;
+  left: 720px;
+  background: url('./../images/Rectangle3.jpg');
+  z-index: 2;
+}
+div.one .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: multiply;  
+}
+div.one .color {
+  z-index: 1;
+  background: var(--tetrary);
+}
+
+div.two {
+  position: absolute;
+  width: 750px;
+  height: 774px;
+  left: 0px;
+  background: url('./../images/Rectangle3-1.jpg');
+}
+div.two .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: multiply;
+}
+div.two .color {
+  z-index: 1;
+  background: var(--secondary-100);
+}
+
+div.three {
+  position: absolute;
+  width: 720px;
+  height: 828px;
+  left: 0px;
+  top: 1494px;
+  background: url('./../images/Rectangle3-4.jpg');
+  z-index: 2;
+}
+div.three .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: multiply;
+  transform: rotate(-180deg);
+}
+div.three .color {
+  z-index: 1;
+  background: var(--tetrary);
+}
+
+div.four {
+  position: absolute;
+  width: 750px;
+  height: 774px;
+  left: 690px;
+  top: 1547px;
+  background: url('./../images/Rectangle3-3.jpg');
+}
+div.four .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: multiply;
+  transform: rotate(-180deg);
+}
+div.four .color {
+  z-index: 1;
+  background: var(--secondary-100);
+}
+
+div.five {
+  position: absolute;
+  width: 1440px;
+  height: 774px;
+  left: 0px;
+  top: 774px;
+  background: url('./../images/Rectangle3-2.jpg');
+}
+div.five .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: multiply;
+}
+div.five .color {
+  z-index: 1;
+  background: var(--primary);
+}
